@@ -4,7 +4,7 @@ Deeplink for Android tv in Home assistant.
 ## Deep links
 | App Name                   | URL                                       |
 |---------------------------|-------------------------------------------|
-|TV2 Play (Norwegin)| tv2play:// |
+|TV2 Play (Norwegian)| tv2play:// |
 |Discovery Plus | discoveryplus:// |
 |Viaplay (Norwegian) | [https://viaplay.no/movies](https://viaplay.no/movies) |
 | 10Play                    | tenplay://                                 |
