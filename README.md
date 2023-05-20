@@ -45,3 +45,15 @@ Deeplink for Android tv in Home assistant.
 Source: 
 
 [https://community.home-assistant.io/t/android-tv-remote-app-links-deep-linking-guide/567921](https://community.home-assistant.io/t/android-tv-remote-app-links-deep-linking-guide/567921)
+
+
+## Example of useage
+
+```yaml 
+service: remote.turn_on
+data:
+  activity: discoveryplus://
+target:
+  entity_id: remote.shield
+
+  ```
