@@ -20,11 +20,13 @@ This repository provides a deep link for Android TV devices in Home Assistant. W
 | Dropout.tv 4              | vhxdropout://                              |
 | HBO Max                   | [https://play.hbomax.com](https://play.hbomax.com) or hbomax://deeplink |
 | Netflix                   | [https://www.netflix.com/title](https://www.netflix.com/title) or netflix:// |
+| NLZiet                    | [nlziet://](nlziet://)         |
 | Paramount Plus            | [https://www.paramountplus.com](https://www.paramountplus.com)         |
 | Plex                      | plex://                                    |
 | Prime Video               | [https://app.primevideo.com](https://app.primevideo.com)                  |
 | SkyShowtime               | [https://www.skyshowtime.com/deeplink](https://www.skyshowtime.com/deeplink)       |
 | Tubi                      | [https://tubitv.com](https://tubitv.com)                                |
+| Videoland (Netherlands)   | [videoland-v2://](videoland-v2://)                                    |
 | YouTube TV                | [https://tv.youtube.com](https://tv.youtube.com)                      |
 
 ## Sports and Live TV
@@ -38,6 +40,7 @@ This repository provides a deep link for Android TV devices in Home Assistant. W
 | TBS                       | watchtbs://                                |
 | Twitch                    | twitch://home [home,stream,game,video,clip,search,browse,channel,user] |
 | Zattoo                    | zattoo://zattoo.com                        |
+| ZiggoGo (Netherlands)     | ziggogo://                        |
 
 ## Video-on-Demand
 
@@ -79,6 +82,17 @@ target:
   entity_id: remote.shield
 
   ```
+
+Additionally it is possible to send commands Like Pause/Play/Home etc. to the device. To find the options you can go [here](https://github.com/tronikos/androidtvremote2/blob/main/TvKeys.txt).
+
+```yaml
+service: remote.send_command
+data:
+  command: HOME
+target:
+  device_id: <your device id>
+
+```
   
 ## Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
