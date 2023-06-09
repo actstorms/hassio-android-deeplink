@@ -41,6 +41,7 @@ This repository provides a deep link for Android TV devices in Home Assistant. W
 | Twitch                    | twitch://home [home,stream,game,video,clip,search,browse,channel,user] |
 | Zattoo                    | zattoo://zattoo.com                        |
 | ZiggoGo (Netherlands)     | ziggogo://                        |
+| Oqee By Free              | https://oq.ee/home/               |
 
 ## Video-on-Demand
 
@@ -63,6 +64,7 @@ This repository provides a deep link for Android TV devices in Home Assistant. W
 | Private Internet Access   | piavpn://                                  |
 | SmartTubeNext             | [https://www.youtube.com](https://www.youtube.com)                     |
 | Spotify                   | spotify://                                 |
+| Deezer | deezer://www.deezer.com |
 | VRT Max                   | vrtnu://vrtnu                              |
 | VTM GO                    | vtmgo://                                   |
 | ZDF                       | [https://www.zdf.de/filme](https://www.zdf.de/filme)                   |
