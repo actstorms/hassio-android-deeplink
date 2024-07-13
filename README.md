@@ -18,7 +18,7 @@ This repository provides a deep link for Android TV devices in Home Assistant. W
 | Apple TV                  | [https://tv.apple.com](https://tv.apple.com)                       |
 | Disney+                   | [https://www.disneyplus.com](https://www.disneyplus.com)                 |
 | Dropout.tv 4              | vhxdropout://                              |
-| HBO Max                   | [https://play.hbomax.com](https://play.hbomax.com) or hbomax://deeplink |
+| Max                   | [https://play.max.com](https://play.max.com)  |
 | Netflix                   | [https://www.netflix.com/title](https://www.netflix.com/title) or netflix:// |
 | NLZiet                    | [nlziet://](nlziet://)         |
 | Paramount Plus            | [https://www.paramountplus.com](https://www.paramountplus.com)         |
