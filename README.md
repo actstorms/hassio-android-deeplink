@@ -15,6 +15,7 @@ This repository provides a deep link for Android TV devices in Home Assistant. W
 | 10Play                    | tenplay://                                 |
 | 7Plus                     | seven://                                   |
 | ABC iview                 | [https://iview.abc.net.au](https://iview.abc.net.au)                   |
+| SBS On Demand             | sbsvod://                                  |
 | Apple TV                  | [https://tv.apple.com](https://tv.apple.com)                       |
 | Disney+                   | [https://www.disneyplus.com](https://www.disneyplus.com)                 |
 | Dropout.tv 4              | vhxdropout://                              |
